@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+     font-family: "Gillroy";
+     color: #fff;
+}
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #212121;
+    font-family: "Gillroy";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+
+}
+h1{
+    margin: 30px;
+}
+
+#up{
+    /* border: 2px  solid red;  */
+    height: 150px;
+    /* width: 44%; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+input{
+    width: 450px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 15px;
+    outline: none;
+    padding: 20px;
+}
+button{ 
+   
+    height: 50px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: 600;
+    background-color: rgb(72, 48, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+button:hover{
+    background-color:rgb(31, 12, 208);
+}
+#add{
+    height: 50px;
+    margin: 0px;
+    width: 50px;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: 600;
+    background-color: rgb(72, 48, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+#down{
+    /* border: 2px  solid rgb(44, 55, 173); */
+    width:645px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(210, 210, 210); */
+    border-radius: 15px;
+
+}
